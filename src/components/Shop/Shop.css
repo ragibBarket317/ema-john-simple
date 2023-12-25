@@ -9,4 +9,20 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 45px;
   padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.order-summery {
+  background-color: #ffe0b3;
+  position: sticky;
+  top: 0;
+}
+
+.order-summery h3 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.order-summery .summery-info {
+  padding-left: 25px;
 }

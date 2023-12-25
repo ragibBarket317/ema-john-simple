@@ -1,0 +1,22 @@
+.review-item {
+  display: flex;
+  align-items: center;
+  background-color: rgb(251, 241, 230);
+  padding: 10px 25px 10px 8px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.review-img {
+  margin-right: 25px;
+  padding: 8px;
+}
+
+.review-text {
+  flex-grow: 1;
+}
+
+.review-item img {
+  width: 90px;
+  border-radius: 6px;
+}

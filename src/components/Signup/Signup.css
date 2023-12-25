@@ -1,0 +1,46 @@
+.user-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+}
+.form-content {
+  width: 30%;
+  border: 1px solid rosybrown;
+  padding: 40px 30px;
+}
+.form-content h2 {
+  text-align: center;
+}
+.error-msg {
+  text-align: center;
+  color: rgb(240, 85, 85);
+}
+
+.form-content input {
+  display: block;
+  padding: 15px 20px;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.form-content button {
+  margin-top: 10px;
+  width: 98%;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rosybrown;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #ffffff;
+}
+
+.toggle-text {
+  text-align: center;
+  margin-top: 5px;
+}
